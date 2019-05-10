@@ -25,8 +25,9 @@ end
 
 def printer(an_array)
   msg1 = batch_badge_creator(an_array)
-  puts "#{msg1}"
-  return msg1
+ msg1.each do |message|
+    puts message
+  end
   
 #puts assign_rooms(an_array)
   
