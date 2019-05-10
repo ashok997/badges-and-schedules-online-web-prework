@@ -29,6 +29,7 @@ def printer(an_array)
     puts message
   end
   
-#puts assign_rooms(an_array)
+ msg2 = assign_rooms(an_array)
+ 
   
 end
