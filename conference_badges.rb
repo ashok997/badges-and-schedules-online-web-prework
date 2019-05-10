@@ -25,7 +25,7 @@ end
 
 def printer(an_array)
   msg1 = batch_badge_creator(an_array)
- msg1.each do |message|
+  msg1.each do |message|
     puts message
   end
   
