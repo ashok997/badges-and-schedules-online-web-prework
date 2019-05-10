@@ -23,8 +23,8 @@ def assign_rooms(array)
     return rooms
 end
 
-def printer(array)
-  batch_badge_creator(array)
+def printer(an_array)
+  batch_badge_creator(an_array)
   return badge_array
   
   #assign_rooms(array)
