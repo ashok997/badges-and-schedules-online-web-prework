@@ -18,10 +18,13 @@ def assign_rooms(array)
     message = "Hello, #{name}! You'll be assigned to room #{counter}!"
     puts message
     rooms.push(message)
-      counter +=1
+    counter +=1
     end
     return rooms
 end
 
-def printer
+def printer(array)
+  batch_badge_creator(array)
+  assign_rooms(array)
+  
 end
