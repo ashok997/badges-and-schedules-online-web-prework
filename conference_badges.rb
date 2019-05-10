@@ -4,4 +4,8 @@ end
 def batch_badge_creator
 end
 
-def
+def assign_room
+end
+
+def printer
+end
