@@ -24,9 +24,10 @@ def assign_rooms(array)
 end
 
 def printer(an_array)
-  puts batch_badge_creator(an_array)
+  msg1 = batch_badge_creator(an_array)
+  put msg1
   
   
- puts assign_rooms(an_array)
+#puts assign_rooms(an_array)
   
 end
