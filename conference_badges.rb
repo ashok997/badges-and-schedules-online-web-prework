@@ -20,6 +20,7 @@ def assign_rooms(array)
     rooms.push(message)
       counter +=1
     end
+    return rooms
 end
 
 def printer
